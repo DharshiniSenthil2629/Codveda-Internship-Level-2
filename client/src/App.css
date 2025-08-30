@@ -1,0 +1,15 @@
+/* client/src/App.css */
+body { font-family: "Poppins", sans-serif; background: #f3f6fb; margin:0; color:#111; }
+.navbar { background:#0d1b2a; color:#fff; padding:1rem 1.5rem; }
+.logo { font-weight:700; font-size:1.2rem; }
+.container { max-width:900px; margin:2rem auto; padding:0 1rem; }
+.todo-app { background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
+.todo-form { display:flex; gap:8px; margin-bottom:1rem; }
+.todo-form input { flex:1; padding:0.6rem 0.8rem; border:1px solid #dce6f2; border-radius:6px; }
+.todo-form button { padding:0.6rem 0.9rem; background:#1665b9; color:#fff; border:none; border-radius:6px; cursor:pointer; }
+.todo-list { list-style:none; padding:0; margin:0; }
+.todo-list li { display:flex; justify-content:space-between; padding:0.8rem; border-bottom:1px solid #f0f3f7; align-items:center; }
+.todo-list li.completed .title { text-decoration:line-through; color:#6b7280; }
+.title { cursor:pointer; user-select:none; }
+.actions button.delete { background:transparent; color:#cc2b2b; border:1px solid #ffdede; padding:6px 10px; border-radius:6px; cursor:pointer; }
+.error { color:#cc2b2b; }
